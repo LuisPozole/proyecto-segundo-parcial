@@ -1,0 +1,111 @@
+/* Fuente y tamaño de fuente global */
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e0e0e0; /* Color de fondo más claro */
+}
+
+/* Contenedor general */
+.container {
+    padding: 30px;
+    background-color: #ffffff; /* Color blanco para el contenedor */
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    margin-top: 80px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* Estilo de Título */
+.titulo {
+    font-size: 2.5em;
+    color: #2c3e50; /* Color oscuro */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+/* Estilo de Descripción */
+.descripcion {
+    font-size: 1.2em;
+    color: #34495e; /* Color gris azulado */
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+/* Tabla */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff; /* Color blanco para la tabla */
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Encabezado de Tabla */
+.table .table-header {
+    background-color: #3498db; /* Azul */
+    color: #ffffff; /* Color blanco para el texto */
+    padding: 12px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #dcdcdc;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/* Celdas de datos de Tabla */
+.table .table-data {
+    padding: 12px;
+    border: 1px solid #dcdcdc;
+    text-align: center;
+    color: #2c3e50; /* Color oscuro para el texto */
+    font-weight: 400;
+}
+
+.table-data:nth-child(even) {
+    background-color: #f9f9f9; /* Color gris claro */
+}
+.table-data:nth-child(odd) {
+    background-color: #ffffff; /* Color blanco */
+}
+
+/* Estilo de enlaces */
+.link {
+    color: #3498db; /* Color azul */
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: #2980b9; /* Azul más oscuro */
+    text-decoration: underline;
+}
+
+/* Botón azul personalizado */
+.btn-blue {
+    height: 50px;
+    background-color: #3498db; /* Azul */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%; /* Ocupa el ancho completo del contenedor */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-blue:hover {
+    background-color: #2980b9; /* Azul más oscuro al pasar el mouse */
+}
+
